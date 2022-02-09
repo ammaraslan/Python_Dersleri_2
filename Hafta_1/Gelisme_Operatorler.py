@@ -14,7 +14,7 @@ print(z)
 # Çarpma Operatörü (*)
 carpma = (x + y) * (x - y)
 print(carpma)
-0
+
 # Bölme Operatörü (/)
 bolme = (x + y) / (x - y)
 print(bolme)
