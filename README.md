@@ -1,1 +1,1 @@
-# Python_Dersleri_2
+# Haftalık Python Ders Uygulamaları Bu Alana Yerleştirilecektir.
