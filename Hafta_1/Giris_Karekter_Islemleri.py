@@ -9,3 +9,6 @@ print("Ammar\nASLAN")
 print("Ammar\tASLAN")
 
 print("\u0061")
+
+isim = "BATMAN ÜNİVERSİTESİ"
+print(*isim, sep="<-->")

@@ -1,0 +1,15 @@
+import random as r
+
+print(r.Random)
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randrange(0,100))
+print(r.randint(0,10))
