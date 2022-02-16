@@ -25,4 +25,4 @@ if (sayi_1 > sayi_2):
 elif (sayi_2 > sayi_1):
     print("Sayı 2 Daha Büyüktür")
 else:
-    print("Eşittir") 
+    print("Eşittir")
