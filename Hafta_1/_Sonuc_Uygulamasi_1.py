@@ -20,3 +20,8 @@ elif (sayi2 > sayi1):
 else:
     print("Sayılar Eşittir")
 """
+sayi1 = int(input("Sayıyı Giriniz"))
+if(sayi1%2==0):
+    print("Sayı çiftir")
+else:
+    print("Sayı tektir")
