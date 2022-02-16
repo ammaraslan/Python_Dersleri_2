@@ -24,7 +24,7 @@ liste2 = list(liste2)
 print(liste2)
 print(liste[0::2])
 """
-
+"""
 liste = ["Ali","Kemal","ceylan","ammar aslan"]
 
 liste.append("4")
@@ -37,3 +37,48 @@ liste.remove("4")
 print(liste)
 liste.sort()
 print(liste)
+
+"""
+
+"""dizi = list(range(0, 100, 2))
+print(dizi)
+dizi2 = [];
+for i in range(0, 100, 2):
+    dizi2.append(i)
+print(dizi2)
+
+dizi3 = [i for i in range(0,100,2) if i<10]
+
+print(dizi3)
+"""
+# 1- "Bmw, Mercedes, Opel, Mazda" elemanlarına sahip bir liste oluşturunuz.
+degerler = "Bmw, Mercedes, Opel, Mazda";
+araclar = degerler.split(", ")
+print(araclar)
+# 2- Liste Kaç elemanlıdır ?
+print(len(araclar))
+# 3- Listenin ilk ve son elemanı nedir ?
+print(araclar[0], araclar[-1])
+# 4- Mazda değerini Toyota ile değiştirin.
+araclar[-1] = "Toyota"
+print(araclar)
+
+# 5- Mercedes listenin bir elemanı mıdır ?
+
+durum = "Mercedes" in araclar
+print(durum)
+
+#  Listenin son 2 elemanı yerine "Totoya" ve "Renault" değerlerini ekleyin.
+
+araclar[-2:] = "Toyota","Ranault"
+
+print(araclar)
+
+# 9 Listenin üzerine "Audi" ve "Nissan" değerlerini ekleyin.
+araclar.append("audi")
+araclar.append("Nşssan")
+print(araclar)
+
+
+print(araclar[::-1])
+
