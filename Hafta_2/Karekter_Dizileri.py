@@ -11,7 +11,7 @@ j=0
 for i in Kurum:
     j=j+1
 print(j)
-"""
+
 k_dizim = "Semih ASLAN"
 
 print(k_dizim[0:5])
@@ -29,3 +29,18 @@ print(deger.count("A"))
 print(deger.title())
 yenideger = deger.replace("BATMAN", "SİİRT")
 print(yenideger)
+"""
+
+# Split Komutu
+
+Kurum = "BATMAN, ANKARA, Adana, İzmir, Siirt, Antalya"
+
+arr = Kurum.split(", ")
+
+for i in arr:
+    print(i.upper())
+
+
+# Strip Komutu
+isim = "****AMMAR****"
+print(isim.strip("*"))
