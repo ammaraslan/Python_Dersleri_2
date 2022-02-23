@@ -1,0 +1,2 @@
+from GonderMail import *
+mailGonder()
