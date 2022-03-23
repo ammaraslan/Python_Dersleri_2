@@ -2,7 +2,7 @@ import pandas as pd
 
 print(pd.__version__)
 
-dosya = pd.read_csv("train.csv")
+dosya = pd.read_csv("dosyalar/train.csv")
 # print(dosya)
 # print(dosya.head)
 
@@ -20,5 +20,6 @@ dosya = pd.read_csv("train.csv")
 # iloc metodunda satır ve sütun indeksleri girilerek işlem yapılır. Bu komutların ilk parametresi satırı ikinci parametresi sütunu ifade eder.
 
 print(dosya.iloc[2, [1, 3, 5, 2]].head())
+print(dosya.Name.head())
+
 dosya = dosya.dropna(axis=1, how="all").shape
-print(dosya.isnull().sum())
