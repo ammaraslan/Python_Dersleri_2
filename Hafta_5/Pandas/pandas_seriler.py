@@ -69,3 +69,11 @@ print(np.sqrt(serim))
 sonuc = serim > 2
 print(sonuc)
 print(serim[sonuc])
+
+
+sayilar = np.random.randint(100,size = (20))
+print(sayilar)
+
+seri  = pd.Series(sayilar)
+
+print(seri[seri%2==0])
