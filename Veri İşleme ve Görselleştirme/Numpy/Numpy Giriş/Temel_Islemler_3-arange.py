@@ -13,7 +13,11 @@ print(dizi_3)
 
 # for i in arange(0,10,1):
 #     print(i)
-
+# aralıkta sayı üretme
 dizim = np.linspace(0,2,50)
 print(dizim)
+
+
+i =  np.arange(0,100,2)
+print(i)
 

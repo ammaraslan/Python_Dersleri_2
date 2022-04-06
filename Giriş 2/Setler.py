@@ -14,3 +14,6 @@ meyveler.pop()
 print(meyveler)
 meyveler.remove("elma")
 print(meyveler)
+
+
+
